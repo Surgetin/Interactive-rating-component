@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: hsl(216, 12%, 8%);
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: var(--bg-color);
+}
+
+.main-container{
+    background-color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7rem auto;  
+    width: 350px;
+    border-radius: 25px;
+}
+.rating-container{
+    padding: 1.8rem;
+}
+
+.rating-img{
+    margin-bottom: 1.3rem;
+    background-color: hsl(216deg 14% 21%);
+    padding: 0.7rem;
+    border-radius: 30px;
+}
+
+.heading{
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.rating-text{
+    color: var(--grey);
+    font-size: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.rating-btn-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-btn{
+    background-color: hsl(216deg 14% 21%);
+    padding: 0.7rem 1.1rem;
+    border-radius: 50px;
+    margin-bottom: 1.5rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.rating-btn:hover{
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.active{
+    background-color: var(--grey);
+    color: var(--white);
+}
+
+.submitted-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 1.8rem;
+    width: 400px;
+}
+
+.illustration-img{
+    margin-bottom: 1.6em;    
+}
+
+.submitted-result{
+    background-color: hsl(216deg 14% 21%);
+    padding: 0.3rem 1rem;
+    border-radius: 50px;
+    color: var(--orange);
+    font-size: 13px;
+    margin-bottom: 1.7rem;
+}
+
+.submitted-container .rating-text{
+    text-align: center;
+}
+
+
+
+.submit-btn{
+    background-color: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.submit-btn:hover{
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+.hide {
+    display: none;
+}
