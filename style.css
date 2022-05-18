@@ -25,7 +25,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 7rem auto;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
     width: 350px;
     border-radius: 25px;
 }
