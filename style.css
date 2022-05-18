@@ -58,6 +58,7 @@ body {
 
 .rating-btn{
     background-color: hsl(216deg 14% 21%);
+    color: var(--grey);
     padding: 0.7rem 1.1rem;
     border-radius: 50px;
     margin-bottom: 1.5rem;
